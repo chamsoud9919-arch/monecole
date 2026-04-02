@@ -38,9 +38,7 @@ export default function App() {
   const [matieres, setMatieres] = useState(MATIERES_DEFAUT);
   const [nouvMatiere, setNouvMatiere] = useState({ nom: "", nomAr: "" });
   const [eleves, setEleves] = useState([
-    { id: 1, nom: "Kamara", nomAr: "كامارا", prenom: "Amina", prenomAr: "أمينة", classe: "CM1", notes: { Français: "14", Mathématiques: "16", Sciences: "13", "Histoire-Géo": "15", Arts: "17", EPS: "18" } },
-    { id: 2, nom: "Traoré", nomAr: "تراوري", prenom: "Moussa", prenomAr: "موسى", classe: "CM2", notes: { Français: "10", Mathématiques: "9", Sciences: "11", "Histoire-Géo": "12", Arts: "14", EPS: "15" } },
-    { id: 3, nom: "Diallo", nomAr: "ديالو", prenom: "Fatoumata", prenomAr: "فاطوماتا", classe: "CM1", notes: { Français: "17", Mathématiques: "18", Sciences: "16", "Histoire-Géo": "15", Arts: "13", EPS: "14" } },
+    
   ]);
   const [selectedId, setSelectedId] = useState(null);
   const [form, setForm] = useState({ nom: "", nomAr: "", prenom: "", prenomAr: "", classe: "" });
